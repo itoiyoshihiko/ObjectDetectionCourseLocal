@@ -37,7 +37,7 @@ if __name__ == '__main__':
             os.remove("result/image0.jpg")
             # 結果表示
             results.print()
-            cv2.imshow('カメラ画像', img)
+            cv2.imshow('camera', img)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
 

@@ -17,7 +17,7 @@ if __name__ == '__main__':
         # 取得に成功した場合、表示する
         if ret:
             # 画像表示
-            cv2.imshow('カメラ画像', frame)
+            cv2.imshow('camera', frame)
             # キー操作を確認
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
