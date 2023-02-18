@@ -20,8 +20,8 @@ gitはコードのバージョン管理をするもので、<a href="https://git
 
 https://git-scm.com/downloads
 
-### 2.OpenCVのインストール <a name="code"></a>
-カメラの起動に必要なopencv-pythonのライブラリをインストールします。
+### 2.コードのダウンロード <a name="code"></a>
+実装で紹介するコードをダウンロードします。
 ```
 git clone https://github.com/itoiyoshihiko/ObjectDetectionCourseLocal.git
 ```
