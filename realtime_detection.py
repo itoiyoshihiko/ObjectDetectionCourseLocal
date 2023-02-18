@@ -4,7 +4,7 @@ launch_web_camera.pyとtest_yolov5.pyを組み合わせることで、
 
 """
 import glob
-import os
+import shutil
 
 import torch
 import cv2
@@ -34,7 +34,7 @@ if __name__ == '__main__':
             results.save(save_dir="result")
             # 結果読み込み
             img = cv2.cvtColor(cv2.imread("result/image0.jpg"), cv2.COLOR_BGR2RGB)
-            os.remove("result/image0.jpg")
+            shutil.rmtree("result")
             # 結果表示
             results.print()
             cv2.imshow('camera', img)
