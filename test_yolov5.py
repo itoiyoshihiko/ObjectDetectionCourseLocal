@@ -13,7 +13,6 @@ if __name__ == '__main__':
 
     # 推論の実行
     model.conf = 0.6  # confidence threshold (0-1)
-    model.iou = 0.5  # NMS IoU threshold (0-1)
     results = model(image_url)
 
     # 結果の表示
